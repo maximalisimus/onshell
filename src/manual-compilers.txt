@@ -1,0 +1,4 @@
+
+go run onshell.go test.sh
+GOOS=linux GOARCH=amd64 go build -ldflags '-w -s' onshell.go
+GOOS=linux GOARCH=386 go build -ldflags '-w -s' onshell.go

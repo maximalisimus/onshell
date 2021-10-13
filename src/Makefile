@@ -1,0 +1,21 @@
+PROJECTNAME=onshell
+SOURCE=onshell.go
+EXEFILE_x86=$(PROJECTNAME)-i386
+EXEFILE_x64=$(PROJECTNAME)-amd64
+GOS="linux"
+GARCH_x64=amd64
+GARCH_x86="386"
+FLAGS=-ldflags '-w -s'
+LANGUAGE=go
+MODE=build
+
+.PHONY: all clean
+
+all:
+	GOOS=$(GOS) GOARCH=$(GARCH_x86) $(LANGUAGE) $(MODE) $(FLAGS) $(SOURCE)
+	mv $(PROJECTNAME) $(EXEFILE_x86)
+	GOOS=$(GOS) GOARCH=$(GARCH_x64) $(LANGUAGE) $(MODE) $(FLAGS) $(SOURCE)
+	mv $(PROJECTNAME) $(EXEFILE_x64)
+
+clean:
+	rm -rf $(EXEFILE_x86) $(EXEFILE_x64)
