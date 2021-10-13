@@ -4,7 +4,7 @@ Run all scriptes the shebang on SHELL environment
 
 Запуск shell скриптов в текущем shebang.
 
-<img src="https://raw.githubusercontent.com/maximalisimus/onshell/main/image/src.png"  height="400">
+<img src="https://github.com/maximalisimus/onshell/raw/main/image/scr.png"  height="400">
 
 ## Оглавление
 
