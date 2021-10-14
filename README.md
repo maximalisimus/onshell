@@ -94,11 +94,11 @@ You can also directly create executables for different operating systems using *
 
 ### Russian
 
-Данный проект содержит актуальные **Release-версии** по следующей ссылке: [Release-versions](https://github.com/maximalisimus/onshell/releases)
+Данный проект содержит актуальные **Release-версии** по следующей ссылке: [Release-versions](https://github.com/maximalisimus/onshell/releases).
 
 ### English
 
-This project contains the latest **Release versions** at the following link: [Release-versions](https://github.com/maximalisimus/onshell/releases)
+This project contains the latest **Release-versions** at the following link: [Release-versions](https://github.com/maximalisimus/onshell/releases).
 
 [:arrow_up:About-RUS](#About-RUS)
 
