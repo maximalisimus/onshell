@@ -1,5 +1,7 @@
 package main
-	
+
+// Version 1.1
+
 import (
     "fmt"
     "os"
@@ -21,7 +23,7 @@ func main() {
 		if _, err := os.Stat(abs); err != nil {
 			if os.IsNotExist(err) {
 				fmt.Printf("Error! File %s does not exists!\n",os.Args[1])
-				fmt.Printf("Please, input the file!\n")
+				fmt.Printf("Please, input the correct linux script!\n")
 				// file does not exist
 				os.Exit(2)
 			} else {
@@ -36,10 +38,11 @@ func main() {
 		cmd.Stdin = os.Stdin
 		cmd.Stdout = os.Stdout
 		cmd.Stderr = os.Stderr
+		cmd.Env = os.Environ()
 		cmd.Run()
 	} else
 	{
-		fmt.Printf("Error! Please, input the argument!\n")
+		fmt.Printf("Error! Please, input the correct linux script!\n")
 		fmt.Printf("Shell = %s",isshell)
 	}
 }

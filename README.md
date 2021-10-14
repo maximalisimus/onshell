@@ -12,8 +12,9 @@ Run all scriptes the shebang on SHELL environment
 2. [Information](#Information)
 3. [Сборка](#Сборка)
 4. [Build](#Build)
-5. [About-RUS](#About-RUS)
-6. [About-EN](#About-EN)
+5. [Release](#Release)
+6. [About-RUS](#About-RUS)
+7. [About-EN](#About-EN)
 
 [:arrow_up:Информация](#Информация)
 
@@ -88,6 +89,16 @@ You can also directly create executables for different operating systems using *
 	# и далее запуск
 	$ onshell-amd64 test.sh
 ```
+
+[:arrow_up:Release](#Release)
+
+### Russian
+
+Данный проект содержит актуальные **Release-версии** по следующей ссылке: [Release-versions](https://github.com/maximalisimus/onshell/releases)
+
+### English
+
+This project contains the latest **Release versions** at the following link: [Release-versions](https://github.com/maximalisimus/onshell/releases)
 
 [:arrow_up:About-RUS](#About-RUS)
 
